@@ -1,0 +1,11 @@
+file_format: "1"
+id: oluka56
+name: OLuka56
+type: shield
+url: https://github.com/IwasakiYuuki/OLuka56/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - oluka56_left
+  - oluka56_right
