@@ -25,4 +25,13 @@
         diode-direction = "col2row";
         wakeup-source;
     };
+
+};
+
+&gpio0 {
+    vbat_disable {
+        gpio-hog;
+        gpios = <14 GPIO_ACTIVE_HIGH>;
+        output-high;
+    };
 };
